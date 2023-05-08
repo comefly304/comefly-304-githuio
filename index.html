@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>personal_portfolio</title>
+    <script src="https://kit.fontawesome.com/1d06904a13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           
+               <img src="images/logo.png" class="logo">
+               <ul id="sidemenu">
+                <li ><a href="#header">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li ><a href="#about">About</a></li>
+                <li ><a href="#portfolio">Portfolio</a></li>
+                <li ><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full stack web developer</p>
+            <h1>Hi, Im<span> Sachin </span><br>from Karnataka India :)<br>
+            Consistancy and work with<br> patience 
+        becomes success</h1>
+        </div>
+    </div>
+
+</div>
+<!-- -----------about--------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+            <img src="images/user.jpg">
+         </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Full stack web developer with 1200+ hours<br> of coding experience and 400+ DSA problems solved <br>in masai 
+                    school curriculum.
+                    Designing,developing<br>, makingclones <br>of websites with teamwork,implementing<br> applications and solutions using range of<br> 
+                    technologies and programming languages.<br>
+                    Seeking for broad development experience<br> and hands-on teamwork experience<br> in a challenging role 
+                    Full-Stack Developer.<br>
+                    Have experience in a wide range of languages <br>
+                    <span>HTML,CSS,Javascript,Java,React.js,Node.js<br>,Hooks,Php,Devops.</span>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p  class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Fullstack</span><br>Designing repsonsive dynamic web apps</br>
+                            and have skills in <span>HTML,CSS,React,Hooks,Redux,MongoDB,MySQL,MERN</span> </li>
+                            <li><span>Frontend</span><br>Frontend Developer<span>HTML,CSS,React,Hooks,Redux)</span></li>
+                            <li><span>Backend</span><br>Backend developer<span>(MongoDB,MySQL,MERN)</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li><span>Experince</span><br>1200+ hours of coding with 400+ DSA problems solved</li>
+                            <li><span>2022-2023</span><br>Learnt full stack web development course in masai school</li>
+                            <li><span>Full-stack Developer</span><br>Full-stack web developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="education" >
+                        <ul>
+                            <li><span>Education</span><br>B.E in Civil Engineering(Dropout in 3rd Year due to financial issue in family)</li>
+                            <li><span>2018-2020</span><br>Completed 12th in Alvas PU college</li>
+                            <li><span>2020-2022</span><br>Pursuing B.E in Civil Engineering</li>
+                            <li><span>2022-2023</span><br>Masai school of Full stack web development course</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+          
+        </div>
+    </div>
+</div>
+<!-- -------------------------------services--------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Full stack web developer with 1200+ hours,of coding experience and 400+ DSA problems solved,
+                    with many pojects have been created with teamwork 
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>Frontend</h2>
+                <p>To develop website features that can enhance the user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node-js"></i>
+                <h2>Backend</h2>
+                <p>To develop website features that can enhance the user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- --------------------------------portfolio------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Best Projects</h1>
+        <h3>(Hover on Projects to get a link and description of it)</h3>
+        <div class="work-list">
+            <div class="work">
+                <h1 class="sub-title">Lovoda</h1>
+                <h4 class="content-in-hf">(It is a website which connects peoples to love jewelleries)</h4>
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    
+                    <h3>lovoda website clone</h3>
+                    <P>It connects the world with teamwork and great shoppings</P>
+                    <a href="https://github.com/PPnaruto/Project_Lovoda" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <h1 class="sub-title">Freshly</h1>
+                <h4 class="content-in-hf">(It is a website which connects peoples to love healthy fresh food)</h4>
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Freshly website clone</h3>
+                    <P>It connects the world with great and fresh foods with a nice elooking user friendly user interface</P>
+                    <a href="https://github.com/Meshabaz/freshly-clone" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <h1 class="sub-title">Discover+</h1>
+                <h4 class="content-in-hf">(It is a website which enables peoples to watch their favourite shows)</h4>
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Discovery plus react app </h3>
+                    <P>One of the best platform to watch your favourite videos</P>
+                    <a href="https://github.com/Meshabaz/freshly-clone" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="sub-title">Live Demo</h1>
+            <div class="project-div">
+            <div class="my-links"><a href=" https://comfy-speculoos-0dfe32.netlify.app/"target="_blank"><button class="btn-pro">Lovoda</button></a><i class="fa-solid fa-tower-cell"></i></div>
+            <div class="my-links"><a href="https://freshly-masai-team.netlify.app" target="_blank"><button class="btn-pro">Freshly</button></a><i class="fa-solid fa-tower-cell"></i></div>
+            <div class="my-links"><a href="https://discovery-plus.vercel.app" target="_blank"><button class="btn-pro">Discovery-plus</button></a><i class="fa-solid fa-tower-cell"></i></div>
+        </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div class="hobbies-div">
+    <h1 class="hobbies">Hobbies</h1>
+    <div class="hobbies-divv">
+    <div class="hobbies-names">Cooking<i class="fa-solid fa-bowl-rice"></i></div>
+    <div class="hobbies-names">Playing Games</div>
+    <div class="hobbies-names">Watching Movies<i class="fa-solid fa-clapperboard"></i></div>
+</div>
+</div>
+<!-- -----------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Sachinkn448@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6361124312</p>
+                <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/sachin-kn-a15212242/" target="_blank">LinkedIn</a></p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/comefly304?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                <a href="images/resume.pdf" Download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+       Build Awesome websites using react/html/css/js... be Awesome!
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           }
+</script>
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-300px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-TzV2K9QxHaWRBEAh_O1QLYT09h4f5KbmsOOU4uosc6s29WqXn56Ne_PQFCzbCzCt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
